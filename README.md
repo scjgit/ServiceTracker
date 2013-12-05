@@ -1,0 +1,1 @@
+A sample application developed in IBM worklight.
