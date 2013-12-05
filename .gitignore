@@ -1,0 +1,9 @@
+# ignore all bin directories
+# matches ".externalToolBuilders" in any subfolder
+.externalToolBuilders/
+
+# ignore all target directories
+.settings/
+
+# ignore all files ending with .class
+*class

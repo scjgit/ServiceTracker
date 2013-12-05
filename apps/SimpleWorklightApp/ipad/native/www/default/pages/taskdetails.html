@@ -1,0 +1,29 @@
+<div id="header">
+	<h1>Task Details</h1>
+</div>
+<div id="wrapper"><button id="btnShowTask" onclick="showTaskList();">My TaskList</button><button id="btnLogut" onclick="logout();">Logout</button>
+	<div id="info">
+		<div id="taskDetailsDiv">Your assigned task will be listed here.
+		</div>
+		</br>
+		<div>Remarks
+			<textarea id="taskremarks" placeholder="Remarks" style="text-align: left;width:100%" />
+			<input type="hidden" id="compid"/><input type="hidden" id="collectionid"/>
+		</div>
+		<br>
+		<h3>Owner Address Details</h3>
+		<div id="ownerAddress" style="text-align: left"></div>
+		<div id="statusDiv">Status</div>
+		<div id="compStatusDiv">
+			<select id="compStatus">
+				<option value="addressed">Addressed</option>
+				<option value="closed">Closed</option>
+				<option value="assigned">Assigned</option>
+			</select>
+		</div>
+		<br>
+		<div id="btnSaveDiv">
+			<button id="btnSave" onclick="saveDetails();">Save Remarks</button>
+		</div>
+	</div>
+</div><button id="btnSyncChange" onclick="syncChanges();">Synchronise my changes</button><button id="btnChgPwdPage" onclick="goToChangePasswordPage();">Change Password</button>
